@@ -1,0 +1,51 @@
+{
+  "@odata.context": "https://udy-corporate-search-service.search.windows.net/$metadata#indexers/$entity",
+  "@odata.etag": "\"0x8DA0295D24B25D7\"",
+  "name": "corporate-table-indexer",
+  "description": "",
+  "dataSourceName": "corporate-table",
+  "skillsetName": "azuretable-skillset",
+  "targetIndexName": "azuretable-index",
+  "disabled": null,
+  "schedule": null,
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": 0,
+    "maxFailedItemsPerBatch": 0,
+    "base64EncodeKeys": false,
+    "configuration": {}
+  },
+  "fieldMappings": [],
+  "outputFieldMappings": [
+    {
+      "sourceFieldName": "/document/PartitionKey/people",
+      "targetFieldName": "people"
+    },
+    {
+      "sourceFieldName": "/document/PartitionKey/organizations",
+      "targetFieldName": "organizations"
+    },
+    {
+      "sourceFieldName": "/document/PartitionKey/locations",
+      "targetFieldName": "locations"
+    },
+    {
+      "sourceFieldName": "/document/PartitionKey/keyphrases",
+      "targetFieldName": "keyphrases"
+    },
+    {
+      "sourceFieldName": "/document/language",
+      "targetFieldName": "language"
+    },
+    {
+      "sourceFieldName": "/document/PartitionKey/pii_entities",
+      "targetFieldName": "pii_entities"
+    },
+    {
+      "sourceFieldName": "/document/PartitionKey/masked_text",
+      "targetFieldName": "masked_text"
+    }
+  ],
+  "cache": null,
+  "encryptionKey": null
+}

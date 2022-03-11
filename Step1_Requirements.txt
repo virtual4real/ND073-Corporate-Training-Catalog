@@ -1,0 +1,17 @@
+Users can search courses in the Corporate Library by Keywords
+
+Users can search courses in the Corporate Library by phrases from description and other fields
+
+Users can filter the courses in the Corporate Library by rating or duration AND…
+
+Users can see the profiles of the cours instructors from the internal training
+
+Users can facet information in the Corporate Library based on source, skills or role
+
+Users can sort results by relevant fields
+
+Users can search the Corporate Library for papers by keywords and phrases, aoutors and their associated institutions
+
+Users can search the Corporate Library for papers by publication name, publisher and publication date.
+
+Users should be provided the Digital Object Identifier URL for the files in the search result.
