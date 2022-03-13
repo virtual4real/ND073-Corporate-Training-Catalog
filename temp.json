@@ -1,0 +1,58 @@
+{
+    "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+    "name": "#5",
+    "description": "",
+    "context": "/document",
+    "uri": "https://udy-publisher-info.azurewebsites.net/api/SpringerLookup",
+    "httpMethod": "POST",
+    "timeout": "PT30S",
+    "batchSize": 10,
+    "degreeOfParallelism": 2,
+    "inputs": [
+      {
+        "name": "ArticleName",
+        "source": "/document/title"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "publicationName",
+        "targetName": "publicationName"
+      },
+      {
+        "name": "publisher",
+        "targetName": "publisher"
+      },
+      {
+        "name": "doi",
+        "targetName": "doi"
+      },
+      {
+        "name": "publicationDate",
+        "targetName": "publicationDate"
+      }
+    ],
+    "httpHeaders": {
+      "code": "5B1OlcYqOVd1A1SMvaofo83JmY7qKbefBXHqTXCxH6J4gfpXM8lxaQ=="
+    }
+}
+
+
+  {
+    "sourceFieldName": "/document/publicationName",
+    "targetFieldName": "publicationName"
+  },
+  {
+    "sourceFieldName": "/document/publisher",
+    "targetFieldName": "publisher"
+  },
+  {
+    "sourceFieldName": "/document/doi",
+    "targetFieldName": "doi"
+  },
+  {
+    "sourceFieldName": "/document/publicationDate",
+    "targetFieldName": "publicationDate"
+  }
+
+  

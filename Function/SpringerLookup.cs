@@ -138,7 +138,7 @@ namespace Udacity.springerlookupdemo
 
         private async static Task<OutputRecord.OutputRecordData> GetEntityMetadata(string title)
         {
-            var uri = springerapiendpoint + "?q=title:\"" + title + "\"&api_key=" + apikey;
+            var uri = springerapiendpoint + "?q=title:" + title + "&api_key=" + apikey;
             var result = new OutputRecord.OutputRecordData();
 
             using (var client = new HttpClient())
