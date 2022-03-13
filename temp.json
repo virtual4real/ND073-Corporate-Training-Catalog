@@ -39,20 +39,24 @@
 
 
   {
-    "sourceFieldName": "/document/publicationName",
+    "sourceFieldName": "/document/data/publicationName",
     "targetFieldName": "publicationName"
   },
   {
-    "sourceFieldName": "/document/publisher",
+    "sourceFieldName": "/document/data/publisher",
     "targetFieldName": "publisher"
   },
   {
-    "sourceFieldName": "/document/doi",
+    "sourceFieldName": "/document/data/doi",
     "targetFieldName": "doi"
   },
   {
-    "sourceFieldName": "/document/publicationDate",
+    "sourceFieldName": "/document/data/publicationDate",
     "targetFieldName": "publicationDate"
   }
+
+
+
+  
 
   
