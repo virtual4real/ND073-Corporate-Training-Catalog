@@ -1,0 +1,10 @@
+https://udy-corporate-search-service.search.windows.net/indexes/course-index/docs?api-version=2021-04-30-Preview&search=*%20&%20%24top=10%20&%20%24select=title%2CpublicationName%20&%20%24filter=publisher%20eq%20'Springer'
+
+https://udy-corporate-search-service.search.windows.net/indexes/course-index/docs?api-version=2021-04-30-Preview&search=*%20&%20%24top=10%20&%20%24select=title%2CpublicationName%20&%20%24filter=doi%20eq%20'10.1007'
+
+https://udy-corporate-search-service.search.windows.net/indexes/azureblob-index/docs?api-version=2021-04-30-Preview&search='Azure'%20&%20%24top=10%20&%20%24filter=publicationName%20eq%20'Business'
+
+https://udy-corporate-search-service.search.windows.net/indexes/azureblob-index/docs?api-version=2021-04-30-Preview&search='Azure'%20&%20%24top=10%20&%20%24filter=publisher%20eq%20'Springer'
+
+https://udy-corporate-search-service.search.windows.net/indexes/azureblob-index/docs?api-version=2021-04-30-Preview&search='Azure'%20&%20%24top=10%20&%20%24filter=publisher%20eq%20'Springer'%20and%20publicationName%20eq%20'Research'
+
